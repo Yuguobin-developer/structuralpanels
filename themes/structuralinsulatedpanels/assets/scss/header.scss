@@ -1,0 +1,109 @@
+/* Custom CSS for the top header bar */
+* {
+    font-family: "muli", sans-serif;
+}
+@font-face {
+  font-family: "muli", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+body {
+    margin: 0;
+}
+.top-header {
+    background-color: rgb(0, 173, 239);
+    .contact-info {
+        margin: auto;
+        display: flex;
+        padding: 15px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .contact-info a {
+        margin-right: 20px;
+        text-decoration: none;
+        color: white;
+        font-size: 1.05rem;
+        &:hover {
+            color: #e55f06;
+        }
+    }
+
+    .contact-info i {
+        margin-right: 5px;
+    }
+}
+
+#site-header {
+    display: flex;
+    .site-logo {
+        img {
+            width: 320px;
+            height: auto;
+
+            @media(max-width: 768px) {
+                width: 200px;
+            }
+        }
+    }
+    .primary-menu {
+        display: flex;
+        margin-left: auto;
+        ul {
+            display: flex;
+            margin: auto;
+            li {
+                list-style: none;
+                padding: 20px;
+                font-size: 1.05rem;
+                a {
+                    color: #4e4e4e;
+                    text-decoration: none;
+                    font-weight: bold;
+                    &:hover {
+                        color: #e55f06;
+                    }
+                }
+            }        
+        }
+    }
+}
+.primary-menu ul {    
+    @media(max-width: 1024px) {
+        display: none !important;
+    }
+}
+
+.hamburger-menu .primary-menu ul {    
+    @media(max-width: 1024px) {
+        display: block !important;
+        margin: 0 !important;
+    }
+} 
+
+.hamburger-menu .menu__btn {
+    display: none;
+    @media(max-width: 1024px) {
+        display: block;
+    }
+}
+@media(max-width: 1440px) {
+    #site-header .primary-menu ul li {
+        list-style: none;
+        padding: 20px 10px;
+        font-size: 12px;
+    }
+}
+@media(max-width: 1024px) {
+    #site-header .primary-menu ul li {
+        list-style: none;
+        padding: 20px 10px;
+        font-size: 12px;
+    }
+}
+
+

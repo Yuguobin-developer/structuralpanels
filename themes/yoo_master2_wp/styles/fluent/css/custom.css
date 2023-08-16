@@ -1,0 +1,1059 @@
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+/* Fonts
+----------------------------------------------------------------------------------------------------*/
+@import url('//fonts.googleapis.com/css?family=Lato:100,300,700,900|Open+Sans:300,400,400i,600,700,800');
+
+
+/* UIkit
+----------------------------------------------------------------------------------------------------*/
+
+/* Base */
+
+a {
+    transition: all 100ms ease-in 0ms;
+}
+
+a:hover {
+    text-decoration: none;
+    transition: all 100ms ease-in 0ms;
+}
+
+h4, .uk-h4 {
+    color: #00a0de;
+    font-weight: 400;
+}
+
+h5, .uk-h5,
+h6, .uk-h6 {
+    font-weight: 600;
+}
+
+
+/* Backgrounds */
+
+/* Spacings */
+
+/* Accordion */
+
+/* Article */
+
+.uk-article + .uk-article {
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+
+/* Badge */
+
+/* Base */
+
+/* Block */
+
+/* Breadcrumb */
+
+/* Button */
+
+.uk-button {
+    border: 1px solid #ebf2f7;
+    padding: 0px 30px;
+    background: #ebf2f7;
+}
+
+.uk-button:hover {
+    border: 1px solid #d8e0e6;
+    background: #d8e0e6;
+}
+
+.uk-button-primary {
+    border: 1px solid #00a0de;
+    background: #00a0de;
+}
+
+.uk-button-primary:hover {
+    border: 1px solid #037dae;
+    background: #037dae;
+}
+
+.uk-button-secondary {
+    border: 1px solid #6cb74e;
+    background: #6cb74e;
+}
+
+.uk-button-secondary:hover {
+    border: 1px solid #599421;
+    background: #599421;
+}
+
+
+/* Close */
+
+/* Comment */
+
+/* Contrast */
+
+/* Description */
+
+/* Dotnav */
+
+/* Dropdown */
+
+/* Form */
+
+/* Grid */
+
+/* Icon */
+
+/* List */
+
+/* Modal */
+
+/* Nav */
+
+.uk-nav-navbar > li > a:focus,
+.uk-nav-navbar > li > a:hover {
+    color: #00a0de;
+    background: transparent;
+}
+
+.uk-nav-navbar > li.uk-active a {
+    color: #00a0de;
+}
+
+.uk-nav-side > li > a {
+    padding: 5px;
+}
+
+.uk-nav-side > li > a:focus,
+.uk-nav-side > li > a:hover {
+    box-shadow: none;
+}
+
+.uk-nav-side .uk-nav-sub > li > a {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.uk-nav-side .uk-nav-sub > li.uk-active > a {
+    color: #00a0de;
+}
+
+
+/* Navbar */
+
+.uk-navbar-nav > li > a {
+    border: none;
+    color: #00a0de;
+    text-shadow: none;
+}
+
+.uk-navbar-nav > li:hover > a,
+.uk-navbar-nav > li > a:focus,
+.uk-navbar-nav > li.uk-open > a {
+    border: none;
+    box-shadow: none;
+    color: #4f4f4f;
+    background: #fff;
+}
+
+.uk-navbar-nav > li.uk-active > a {
+    border: none;
+    box-shadow: none;
+    color: #00a0de;
+    background: #fff;
+}
+
+.uk-navbar-nav > li > a[href='#'] {
+    cursor: pointer;
+}
+
+.uk-navbar-toggle {
+    position: absolute;
+    top: calc(50% - 19px);
+    left: 10px;
+}
+
+
+/* Offcanvas */
+
+/* Overlay */
+
+/* Pagination */
+
+/* Panel */
+
+/* Progress */
+
+/* Search */
+
+.uk-search {
+    margin-top: 10px;
+    vertical-align: top;
+}
+
+.uk-search:before {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 30px;
+    color: #1fa2d6;
+    content: "\f002";
+    font-family: 'FontAwesome';
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.uk-search-field {
+    border: 1px solid #eee;
+    border-radius: 4px;
+    height: 30px;
+    width: 180px !important;
+    font-size: 13px;
+    transition: all 200ms ease-in 0ms;
+}
+
+.uk-search-field:focus {
+    border: 1px solid #00a0de;
+    transition: all 200ms ease-in 0ms;
+}
+
+.uk-search-field::-webkit-input-placeholder {
+   color: #00a0de;
+}
+
+.uk-search-field::-moz-placeholder {  /* Firefox 19+ */
+   color: #00a0de;
+}
+
+
+/* Slidenav */
+
+/* Subnav */
+
+/* Tab */
+
+/* Tables */
+
+/* Text */
+
+/* Thumbnail */
+
+/* Tooltip */
+
+/* Utility */
+
+
+/* Theme
+----------------------------------------------------------------------------------------------------*/
+
+img.alignleft,
+img.alignnone,
+img.alignright {
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 4px;
+    border: 1px solid #dddddd;
+    background: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.05);
+}
+
+img.alignleft {
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+img.alignright {
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.tm-toolbar {
+    margin: 0px;
+    padding: 8px 0px;
+    background: #575656;
+}
+
+.tm-headerbar {
+    position: relative;
+    margin: 0px;
+    border-bottom: 1px solid #ddd;
+    padding: 30px 0px;
+}
+
+.tm-logo {
+    margin: -10px 35px 0px 0px;
+    vertical-align: top;
+}
+
+.tm-logo-small {
+    vertical-align: top;
+}
+
+.tm-navbar {
+    margin: 7px 0px 0px;
+    border: none;
+    color: #00a0de;
+    background: #fff;
+}
+
+.tm-block-top-b.uk-block {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #ebf2f7;
+}
+
+.tm-sidebar-a-left .tm-content {
+    padding-left: 35px;
+}
+
+.tm-sidebar-b-right .tm-content {
+    padding-right: 35px;
+}
+
+.tm-main > :nth-child(n+2) {
+    margin-top: 50px;
+}
+
+.tm-block-bottom-a.uk-block {
+    background: #00a0de;
+}
+
+.tm-block-bottom-a.uk-block .background {
+    position: absolute;
+    top: -39px;
+    left: 150px;
+    height: 40px;
+    width: 180px;
+    background: url(../images/circles-blue.png) 50% 50% no-repeat rgba(0, 0, 0, 0);
+    background-size: 180px;
+}
+
+.tm-block-bottom-b.uk-block  {
+	margin-top: 0px !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background: linear-gradient(to right, #ebf2f7 0%, #ebf2f7 50%, #ffffff 50%, #ffffff 100%);
+}
+
+.tm-block-bottom-b.uk-block .background {
+    position: absolute;
+    top: -40px;
+    right: 200px;
+    height: 40px;
+    width: 130px;
+    background: url(../images/circles-white.png) 50% 50% no-repeat rgba(0, 0, 0, 0);
+    background-size: 130px;
+}
+
+.tm-block-bottom-d.uk-block {
+    padding: 20px 0px;
+    background: #575656;
+}
+
+.tm-footer-block {
+    padding-top: 50px;
+    padding-bottom: 50px;
+	background: #575656;
+}
+
+.tm-footer {
+	margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.tm-totop-scroller {
+	margin-top: -70px;
+}
+
+iframe[name="google_conversion_frame"] {
+    display: none;
+}
+
+
+/* Widgets
+----------------------------------------------------------------------------------------------------*/
+
+/* Contact Information */
+
+.uk-panel.contact-information {
+    font-size: 13px;
+}
+
+.uk-panel.contact-information > div {
+    float: left;
+}
+
+.uk-panel.contact-information > div + div {
+    margin-left: 30px;
+}
+
+.uk-panel.contact-information > div .uk-icon {
+    margin-right: 8px;
+    color: rgba(255,255,255,0.5);
+    font-size: 14px;
+    line-height: 24px;
+    vertical-align: top;
+}
+
+.uk-panel.contact-information > div .uk-icon-phone {
+    margin-bottom: -1px;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.uk-panel.contact-information > div a {
+	color: #fff;
+}
+
+.uk-panel.contact-information > div a:hover {
+	color: rgba(255,255,255,0.5);
+    text-decoration: none;
+}
+
+
+/* Social Media */
+
+.uk-panel.social-media {
+	margin-left: 30px !important;
+}
+
+.uk-panel.social-media .uk-icon-button {
+    border: none;
+    border-radius: 50%;
+    height: 25px;
+	width: 25px;
+    color: #575656;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    text-shadow: none;
+    background: rgba(255,255,255,0.5);
+}
+
+.uk-panel.social-media .uk-icon-button + .uk-icon-button {
+    margin-left: 5px;
+}
+
+.uk-panel.social-media .uk-icon-button:hover {
+    background: #fff;
+}
+
+
+/* Home Showcase */
+
+.uk-panel.home-showcase {
+	position: relative;
+	border-bottom: 4px solid #00a0de;
+}
+
+.uk-panel.home-showcase .uk-container {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+	height: 100%;
+}
+
+.uk-panel.home-showcase .uk-container .form-block {
+	float: right;
+	border-radius: 5px 5px 4px 4px;
+	padding: 0px;
+	width: 320px;
+	text-align: center;
+    background: rgba(255,255,255,0.9);
+}
+
+.uk-panel.home-showcase .uk-container .form-block .title {
+	border-radius: 4px 4px 0px 0px;
+    padding: 0px 0px 35px;
+    color: #fff;
+	background: url(../images/home-showcase-form-bg.png) 50% 100% no-repeat transparent;
+	background-size: cover;
+}
+
+.uk-panel.home-showcase .uk-container .form-block .title .inner {
+    padding: 20px;
+}
+
+.uk-panel.home-showcase .uk-container .form-block .title .inner h3 {
+	color: #fff;
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    line-height: 32px;
+}
+
+.uk-panel.home-showcase .uk-container .form-block .title .inner p {
+	margin: 10px 0px 0px;
+	line-height: 18px;
+}
+
+.uk-panel.home-showcase .uk-container .form-block .form {
+	padding: 30px 50px 50px;
+    text-align: center;
+}
+
+.uk-panel.home-showcase .uk-container .form-block .form .uk-form .submit {
+	margin-top: 30px;
+}
+
+.uk-panel.home-showcase .uk-container .form-block .uk-form .uk-form-row.submit img {
+	display: none;
+}
+
+.uk-panel.home-showcase .uk-container .form-block .uk-form .wpcf7-response-output {
+    display: none !important;
+}
+
+.home-showcase .uk-button-large {
+    border-color: rgba(0,0,0,0.2);
+    border-bottom-color: rgba(0,0,0,0.4);
+    color: #fff;
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.2);
+    background: linear-gradient(to bottom, #6CB74E, #6CB74E);
+}
+
+.uk-panel.home-showcase .arrow {
+	position: absolute;
+    left: calc(50% - 30px);
+    bottom: 0px;
+    border-radius: 5px 5px 0px 0px;
+    height: 30px;
+    width: 60px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    background: #00a0de;
+}
+
+.uk-panel.home-showcase .arrow i {
+	line-height: 30px;
+}
+
+div.wpcf7 .ajax-loader {
+    display: none;
+}
+
+
+/* Credibility Logos */
+
+.uk-panel.credibility-logos .logos .uk-panel-space {
+    padding: 15px;
+}
+
+
+/* Testimonials */
+
+.uk-panel.testimonials {
+	background: #009FE3 url(/~fluent/wp-content/uploads/images/home/home-white-circles.png) no-repeat 80% bottom;
+	background-size: 140px;
+}
+
+.uk-panel.testimonials {
+    margin: 0px auto;
+    padding: 25px 0px;
+	width: calc(100% - 150px);
+}
+
+.uk-panel.testimonials .quote {
+    margin-left: 60px;
+    font-size: 20px;
+    line-height: 36px;
+ }
+
+.uk-panel.testimonials .quote:before {
+    position: absolute;
+    top: 14px;
+    left: 0px;
+    height: 46px;
+    width: 46px;
+    color: rgba(255,255,255,0.25);
+    content: "\f10d";
+    font-family: 'FontAwesome';
+    font-size: 46px;
+    font-style: normal;
+    line-height: 46px;
+    text-align: center;
+}
+
+.uk-panel.testimonials .quote:after {
+    position: relative;
+    top: 20px;
+    right: -15px;
+    height: 40px;
+    width: 46px;
+    color: rgba(255,255,255,0.25);
+    content: "\f10e";
+    font-family: 'FontAwesome';
+    font-size: 46px;
+    font-style: normal;
+    line-height: 20px;
+    text-align: center;
+}
+
+.uk-panel.testimonials .name {
+    float: right;
+    margin-top: 30px;
+}
+
+/* Newsletter Signup */
+
+.newsletter-signup.training-seminars.uk-panel .uk-grid .uk-width-medium-3-5 {
+    border-left: 1px solid #ddd;
+    background: #fff;
+}
+
+.uk-panel .inner.newsletter-signup  {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    padding: 40px;
+    text-align: center;
+	background: #fff;
+}
+
+.uk-panel .inner.training-seminars  {
+    padding: 0px 0px 0px 100px;
+}
+
+
+/* Training & Education Seminars */
+
+
+/* Footer Menu */
+
+.uk-panel.footer-menu {
+	padding-left: 15px;
+	border-left: 1px solid rgba(255,255,255,0.5);
+}
+
+.uk-panel.footer-menu ul {
+    margin: 0px;
+    padding-left: 0px;
+	list-style: none;
+}
+
+
+/* Footer Social Media */
+
+.uk-panel.footer-social-media {
+	padding-left: 15px;
+	border-left: 1px solid rgba(255,255,255,0.5);
+}
+
+.uk-panel.footer-social-media p {
+	margin: 0px;
+}
+
+.uk-panel.footer-social-media .uk-icon-button {
+    margin: 5px 0px;
+    border: none;
+    border-radius: 50%;
+    height: 25px;
+	width: 25px;
+    color: #575656;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    text-shadow: none;
+    background: rgba(255,255,255,0.5);
+}
+
+.uk-panel.footer-social-media .uk-icon-button + .uk-icon-button {
+    margin-left: 5px;
+}
+
+.uk-panel.footer-social-media .uk-icon-button:hover {
+    background: #fff;
+}
+
+
+/* Copyright */
+
+.uk-panel.copyright .inner {
+    float: left;
+    margin-left: calc(23% - 150px);
+}
+
+
+/* Newsletter Signup */
+
+.uk-panel.newsletter-signup .uk-grid .right {
+    background: #fff;
+}
+
+/* LearnDash
+----------------------------------------------------------------------------------------------------*/
+
+.learndash-cpt .uk-article-meta {
+    display: none;
+}
+
+
+/* Woocommerce
+----------------------------------------------------------------------------------------------------*/
+
+.woocommerce .soldout {
+padding: 3px 8px;
+text-align: center;
+background: #222;
+color: #fff;
+font-weight: bold;
+position: absolute;
+top: 6px;
+right: 6px;
+font-size: 12px;
+}
+
+.product .related.products {
+    float: left !important;
+    width: 100% !important;
+}
+
+.single-product .stock.in-stock {
+    display: none;
+}
+
+.woocommerce table.shop_attributes td, .woocommerce-page table.shop_attributes td {
+    background: transparent !important;
+}
+
+li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--ppcp-paypal-payment-tokens {
+	display:none !important;
+}
+
+.wd-my-account-links .ppcp-paypal-payment-tokens-link {
+	display:none !important;
+}
+
+.woocommerce-loop-product__title {
+  font-size: 24px !important;
+  line-height: 30px !important;
+}
+
+
+/* Custom Pages
+----------------------------------------------------------------------------------------------------*/
+
+.wpcf7 .wpcf7-form-control-wrap {
+    width: 100%;
+}
+
+
+/* Custom Pages
+----------------------------------------------------------------------------------------------------*/
+
+/* Home */
+
+.wp-page-30 .tm-middle {
+    padding-top: 125px !important;
+    padding-bottom: 125px !important;
+}
+
+.wp-page-30 .uk-article {
+    text-align: center;
+}
+
+.wp-page-30 .uk-article > h4 {
+    color: #555;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.wp-page-30 .uk-article .uk-grid > div p {
+    margin: 15px 0px 0px;
+}
+
+.wp-page-30 .uk-article .uk-grid > div img {
+    width: 100px;
+}
+
+.wp-page-30 .uk-article .uk-grid > div .uk-button {
+    margin-top: 20px;
+	width: 65%;
+}
+
+.wp-page-30 .uk-article .uk-grid > div .uk-button .uk-icon {
+	margin-right: 5px;
+}
+
+
+/* Career Center */
+
+.job-posting + .job-posting {
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+    padding-top: 30px;
+}
+
+
+/* Responsive
+----------------------------------------------------------------------------------------------------*/
+
+/* All except large Screens */
+@media (max-width: 1219px) {
+
+    /* UIkit */
+
+    body.home .tm-middle .uk-grid h4 {
+	    min-height: 75px;
+	}
+
+
+    /* Theme */
+
+    .uk-hidden-xlarge {
+    	display: block;
+    }
+
+    .uk-visible-xlarge {
+    	display: none !important;
+    }
+
+    .uk-search {
+		float: right;
+		position: relative;
+		top: 30px;
+    	right: 0px;
+		border: 1px solid #dfeaf5;
+		border-radius: 5px;
+	}
+
+	.tm-logo img {
+		margin-top: 10px;
+	}
+
+    .uk-panel .inner.newsletter-signup {
+        margin-top: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+    }
+
+    .uk-panel .inner.training-seminars {
+        padding: 0px 0px 0px 50px;
+    }
+
+    .uk-panel.testimonials {
+        width: auto;
+    }
+
+
+    /* Custom Pages */
+
+    .wp-page-30 .tm-middle {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+
+    .wp-page-30 .uk-article .uk-grid > div .uk-button {
+    	width: auto;
+    }
+
+}
+
+/* Only Phones and Tablets (Portrait) */
+@media (max-width: 959px) {
+
+    .uk-container.uk-container-center.testimonials .post-excerpt {
+		border-left: 2px solid rgba(255,255,255,0.85);
+    	position: relative;
+    	left: 30px;
+	}
+
+	.uk-container.uk-container-center.testimonials .post-excerpt:before {
+	    position: relative;
+	    float: left;
+	    top: 18px;
+	    right: 64px;
+	    font-size: 53px;
+	    margin-bottom: 80px;
+	    margin-right: -35px;
+	    color: rgba(255,255,255,0.85);
+	}
+
+	.uk-container.uk-container-center.testimonials .post-excerpt:after {
+		display: none;
+	}
+
+    .uk-panel.testimonials {
+    margin: 0px auto;
+    padding: 60px 0px;
+    width: 100%;
+    }
+
+	.home-testimonials .uk-container.uk-container-center.testimonials p.uk-text-right {
+		text-align: center !important;
+	}
+
+    .uk-panel .inner.training-seminars {
+        padding: 0px 0px 50px 50px;
+    }
+
+    .tm-bottom-b {
+        background: #fff !important;
+    }
+
+    .uk-panel .inner.newsletter-signup  {
+        margin-right: 0px;
+    }
+
+	body.home .tm-middle .uk-text-center.call-to-action h3 {
+    	text-transform: none;
+    	font-size: 16px;
+	}
+
+	body.home .tm-middle .uk-grid h4 {
+	    min-height: 0;
+	}
+
+	body.home .tm-middle .uk-grid div.uk-button {
+		margin-bottom: 30px;
+	}
+
+	form.uk-search {
+		position: absolute;
+    	right: 30px;
+    	top: 170px;
+	}
+
+	body.home .tm-middle .uk-grid .uk-width-medium-1-2 {
+	    width: 50%;
+	    margin-left: 25%;
+	    margin-right: 25%;
+	}
+
+    .tm-footer-block {
+        text-align: center;
+    }
+
+    .uk-panel.footer-social-media {
+        padding-left: 0px;
+        border-left: none;
+    }
+
+    .uk-panel.footer-menu {
+        padding-left: 0px;
+        border-left: none;
+    }
+
+}
+
+
+/* Only Phones */
+@media (max-width: 767px) {
+
+   /* UIkit */
+
+    .uk-navbar-content {
+        height: auto;
+    }
+
+
+    /* Theme */
+
+    .tm-headerbar {
+        padding: 15px 0px;
+    }
+
+	body.home .tm-middle .uk-grid .uk-width-medium-1-2 {
+    	width: 60%;
+    	margin-left: 20%;
+    	margin-right: 20%;
+	}
+
+	body.home .tm-middle .uk-text-center.call-to-action p {
+		line-height: 18px;
+	}
+
+	body.home .home-testimonials {
+		background: #009FE3;
+	}
+
+	.uk-container.uk-container-center.testimonials .post-excerpt:before {
+		display: none;
+	}
+
+	.uk-container.uk-container-center.testimonials .post-excerpt {
+		text-align: center;
+		font-size: 19px;
+		border-left: 0px solid rgba(255,255,255,0.85);
+    	left: 0px;
+	}
+
+	.showcase-overlay .uk-width-small-1-1 {
+		position: relative;
+		top: 60px;
+		height: 380px;
+	}
+
+	.showcase-overlay .showcase-header {
+		height: 117px;
+	}
+
+    .uk-panel.home-showcase .uk-container {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    }
+
+    .uk-panel.home-showcase .uk-container .form-block {
+        display: none;
+    }
+
+	form#search-4 {
+		display: none;
+	}
+
+    /* Blog */
+
+    .uk-panel.home-showcase .uk-slider,
+    .uk-panel.home-showcase .uk-slider > li,
+    .uk-panel.home-showcase .uk-slider > li > div {
+        height: 300px !important;
+        min-height: 300px !important;
+    }
+
+    .uk-panel.home-showcase .uk-position-bottom-left {
+        z-index: 2;
+    }
+
+    .uk-article-title {
+    font-size: 30px;
+    line-height: 36px;
+    }
+
+    .wp-page-30 .tm-middle {
+        padding-top: 50px !important;
+    }
+
+    .uk-panel .inner.training-seminars {
+        padding: 0px 0px 50px 0px;
+    }
+
+    .uk-panel.testimonials {
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+
+    .uk-panel.testimonials .quote {
+        margin-left: 0px;
+    }
+
+    .uk-panel.testimonials .quote::before,
+    .uk-panel.testimonials .quote::after {
+        display: none;
+    }
+
+    .uk-panel.testimonials .name {
+        float: left;
+    }
+
+}

@@ -1,0 +1,78 @@
+/* Custom CSS for the top header bar */
+* {
+  font-family: "muli", sans-serif; }
+
+body {
+  margin: 0; }
+
+.top-header {
+  background-color: #00adef; }
+  .top-header .contact-info {
+    margin: auto;
+    display: flex;
+    padding: 15px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500; }
+  .top-header .contact-info a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.05rem; }
+    .top-header .contact-info a:hover {
+      color: #e55f06; }
+  .top-header .contact-info i {
+    margin-right: 5px; }
+
+#site-header {
+  display: flex; }
+  #site-header .site-logo img {
+    width: 320px;
+    height: auto; }
+    @media (max-width: 768px) {
+      #site-header .site-logo img {
+        width: 200px; } }
+  #site-header .primary-menu {
+    display: flex;
+    margin-left: auto; }
+    #site-header .primary-menu ul {
+      display: flex;
+      margin: auto; }
+      #site-header .primary-menu ul li {
+        list-style: none;
+        padding: 20px;
+        font-size: 1.05rem; }
+        #site-header .primary-menu ul li a {
+          color: #4e4e4e;
+          text-decoration: none;
+          font-weight: bold; }
+          #site-header .primary-menu ul li a:hover {
+            color: #e55f06; }
+
+@media (max-width: 1024px) {
+  .primary-menu ul {
+    display: none !important; } }
+
+@media (max-width: 1024px) {
+  .hamburger-menu .primary-menu ul {
+    display: block !important;
+    margin: 0 !important; } }
+
+.hamburger-menu .menu__btn {
+  display: none; }
+  @media (max-width: 1024px) {
+    .hamburger-menu .menu__btn {
+      display: block; } }
+
+@media (max-width: 1440px) {
+  #site-header .primary-menu ul li {
+    list-style: none;
+    padding: 20px 10px;
+    font-size: 12px; } }
+@media (max-width: 1024px) {
+  #site-header .primary-menu ul li {
+    list-style: none;
+    padding: 20px 10px;
+    font-size: 12px; } }
+
+/*# sourceMappingURL=header.css.map */

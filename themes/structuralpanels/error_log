@@ -1,0 +1,136 @@
+[17-Dec-2018 21:51:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php on line 13
+[17-Dec-2018 21:51:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php on line 9
+[17-Dec-2018 21:51:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php on line 13
+[17-Dec-2018 21:51:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php on line 9
+[23-Dec-2018 08:27:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php on line 13
+[23-Dec-2018 08:27:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php on line 9
+[23-Dec-2018 08:27:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php on line 9
+[23-Dec-2018 08:27:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php on line 13
+[01-Jan-2019 11:47:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php on line 9
+[01-Jan-2019 11:47:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php on line 13
+[01-Jan-2019 11:47:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php on line 9
+[01-Jan-2019 11:47:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php on line 13
+[01-Jan-2019 14:18:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php on line 9
+[01-Jan-2019 14:18:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php on line 9
+[28-Jan-2019 09:06:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php on line 13
+[28-Jan-2019 09:06:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php on line 9
+[28-Jan-2019 09:06:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php on line 13
+[28-Jan-2019 09:06:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php on line 9
+[11-Feb-2019 10:09:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php on line 13
+[11-Feb-2019 10:09:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php on line 9
+[11-Feb-2019 10:09:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php on line 13
+[11-Feb-2019 10:09:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php on line 9
+[18-Feb-2019 02:34:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php on line 9
+[18-Feb-2019 02:34:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php on line 13
+[18-Feb-2019 02:34:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php on line 9
+[18-Feb-2019 02:34:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php on line 13
+[20-Feb-2019 13:53:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php on line 9
+[20-Feb-2019 13:53:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php on line 9
+[07-Sep-2021 03:55:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php on line 13
+[07-Sep-2021 03:55:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php on line 9
+[07-Sep-2021 03:55:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php on line 13
+[07-Sep-2021 03:55:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/header.php on line 13
+[07-Sep-2021 03:55:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php on line 9
+[07-Sep-2021 03:55:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/spanels/public_html/wp-content/themes/structuralpanels/404.php on line 9

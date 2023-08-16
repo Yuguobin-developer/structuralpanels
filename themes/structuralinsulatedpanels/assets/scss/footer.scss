@@ -1,0 +1,57 @@
+/* style.css */
+
+.footer-columns {
+    display: flex;
+    gap: 5rem;
+    .footer-column1 {
+        width: 33%;
+    }
+    .footer-column2 {
+        width: 23%;
+    }
+    .footer-column3 {
+        width: 23%;
+    }
+    .footer-column4 {
+        width: 33%;
+    }
+    @media(max-width: 1024px) {
+        gap: 1rem;
+    }
+    @media(max-width: 768px) {
+        display: block;
+        .footer-column {
+            width: 100%;
+        }        
+    }
+}
+
+.footer-column {
+    flex: 1;
+    padding: 0px;
+    /* Add more styling as needed */
+}
+
+.footer-column4 {
+    img {
+        width: 30px;
+    }
+}
+.footer-bottom {    
+    display: flex;
+    margin-top: 4rem;
+    img {
+        width: 100px;
+    }
+    .image-area {
+        margin-left: auto;
+    }
+}
+footer {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    padding: 3rem;
+    .column-title {
+        color: rgb(15, 163, 220);
+    }
+}
